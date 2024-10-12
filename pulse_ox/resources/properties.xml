@@ -39,12 +39,12 @@
         <property id="animal11" type="string">Giraffe</property>
         <property id="animal12" type="string">Cheetah</property>
         <property id="animal13" type="string">Ferret</property>
-        <property id="animal14" type="string">Guinea Pig</property>
+        <property id="animal14" type="string">Chihuahua</property>
         <property id="animal15" type="string">Squirrel</property>
         <property id="animal16" type="string">Guinea Pig</property>
         <property id="animal17" type="string">Mouse</property>
         <property id="animal18" type="string">Hamster</property>
-        <property id="animal19" type="string">Canary</property>
+        <property id="animal19" type="string">Sparrow</property>
         <property id="animal20" type="string">Canary</property>
         <property id="animal21" type="string">Chinchilla</property>
         <property id="animal22" type="string">Blue Jay</property>
