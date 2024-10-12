@@ -1,0 +1,28 @@
+<resources>
+    <properties>
+        <property id="col1" type="number">20</property>
+        <property id="col2" type="number">30</property>
+        <property id="col3" type="number">70</property>
+        <property id="col4" type="number">80</property>
+        <property id="col5" type="number">90</property>
+        <property id="col6" type="number">100</property>
+        <property id="col7" type="number">110</property>
+        <property id="col8" type="number">120</property>
+        <property id="col9" type="number">125</property>
+        <property id="col10" type="number">130</property>
+    </properties>
+    
+    <!-- <settings>
+		<setting propertyKey="@Properties.Resources" title="@Strings.AppName">
+        	<settingConfig type="alphaNumeric" readonly="true" />
+    	</setting>
+
+        <setting propertyKey="@Properties.col1" title="@Strings.FieldTitle1" prompt="@Strings.FieldPrompt">
+            <settingConfig type="list">
+                <listEntry value="1">10</listEntry>
+                <listEntry value="2">20</listEntry>
+                <listEntry value="3">30</listEntry>
+                <listEntry value="4">40</listEntry>
+            </settingConfig>
+        </setting> -->
+</resources>
