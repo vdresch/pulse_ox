@@ -6,7 +6,8 @@ import Toybox.WatchUi;
 
 import Toybox.System; //Para debug apenas
 
-var zones = new Array<Number>[10];
+var zones = new Array<Number>[22];
+var animals = new Array<String>[22];
 
 class pulse_oxView extends WatchUi.DataField {
 
@@ -21,14 +22,25 @@ class pulse_oxView extends WatchUi.DataField {
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
 
-        for (var i = 0; i < 10; ++i) {
-            var propertyValue = App.getApp().getProperty(Lang.format("col$1$", [ i ]));
+        for (var i = 0; i < 22; ++i) {
+            var propertyValue = App.getApp().getProperty(Lang.format("col$1$", [ i+1 ]));
             
             // Check if the property is null before casting
             if (propertyValue != null) {
                 zones[i] = (propertyValue as Number);
             } else {
                 zones[i] = 0; // Default to a safe value if the property is not available
+            }
+        }
+
+        for (var i = 0; i < 22; ++i) {
+            var propertyValue = App.getApp().getProperty(Lang.format("animal$1$", [ i+1 ]));
+            
+            // Check if the property is null before casting
+            if (propertyValue != null) {
+                animals[i] = (propertyValue as String);
+            } else {
+                animals[i] = "OX"; // Default to a safe value if the property is not available
             }
         }
 
@@ -92,29 +104,51 @@ class pulse_oxView extends WatchUi.DataField {
             value.setColor(Graphics.COLOR_BLACK);
         }
 
-        System.println(heart_rate);
-
 
         if (heart_rate > zones[0] && heart_rate <= zones[1]) {
-            value.setText("OX1");
+            value.setText(animals[0]);
         } else if (heart_rate > zones[1] && heart_rate <= zones[2]) {
-            value.setText("OX2");
+            value.setText(animals[1]);
         } else if (heart_rate > zones[2] && heart_rate <= zones[3]) {
-            value.setText("OX3");
+            value.setText(animals[2]);
         } else if (heart_rate > zones[3] && heart_rate <= zones[4]) {
-            value.setText("OX4");
+            value.setText(animals[3]);
         } else if (heart_rate > zones[4] && heart_rate <= zones[5]) {
-            value.setText("OX5");
+            value.setText(animals[4]);
         } else if (heart_rate > zones[5] && heart_rate <= zones[6]) {
-            value.setText("OX6");
+            value.setText(animals[5]);
         } else if (heart_rate > zones[6] && heart_rate <= zones[7]) {
-            value.setText("OX7");
+            value.setText(animals[6]);
         } else if (heart_rate > zones[7] && heart_rate <= zones[8]) {
-            value.setText("OX8");
+            value.setText(animals[7]);
         } else if (heart_rate > zones[8] && heart_rate <= zones[9]) {
-            value.setText("OX9");
-        } else if (heart_rate > zones[9]) {
-            value.setText("OX10");
+            value.setText(animals[8]);
+        } else if (heart_rate > zones[9] && heart_rate <= zones[10]) {
+            value.setText(animals[9]);
+        } else if (heart_rate > zones[10] && heart_rate <= zones[11]) {
+            value.setText(animals[10]);
+        } else if (heart_rate > zones[11] && heart_rate <= zones[12]) {
+            value.setText(animals[11]);
+        } else if (heart_rate > zones[12] && heart_rate <= zones[13]) {
+            value.setText(animals[12]);
+        } else if (heart_rate > zones[13] && heart_rate <= zones[14]) {
+            value.setText(animals[13]);
+        } else if (heart_rate > zones[14] && heart_rate <= zones[15]) {
+            value.setText(animals[14]);
+        } else if (heart_rate > zones[15] && heart_rate <= zones[16]) {
+            value.setText(animals[15]);
+        } else if (heart_rate > zones[16] && heart_rate <= zones[17]) {
+            value.setText(animals[16]);
+        } else if (heart_rate > zones[17] && heart_rate <= zones[18]) {
+            value.setText(animals[17]);
+        } else if (heart_rate > zones[18] && heart_rate <= zones[19]) {
+            value.setText(animals[18]);
+        } else if (heart_rate > zones[19] && heart_rate <= zones[20]) {
+            value.setText(animals[19]);
+        } else if (heart_rate > zones[20] && heart_rate <= zones[21]) {
+            value.setText(animals[20]);
+        } else if (heart_rate > zones[21]) {
+            value.setText(animals[21]);
         } 
 
         // Call parent's onUpdate(dc) to redraw the layout

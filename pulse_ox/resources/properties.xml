@@ -1,15 +1,54 @@
 <resources>
     <properties>
-        <property id="col1" type="number">20</property>
-        <property id="col2" type="number">30</property>
-        <property id="col3" type="number">70</property>
-        <property id="col4" type="number">80</property>
-        <property id="col5" type="number">90</property>
-        <property id="col6" type="number">100</property>
-        <property id="col7" type="number">110</property>
+
+        <!-- Heart rate zones -->
+        <property id="col1" type="number">30</property>
+        <property id="col2" type="number">60</property>
+        <property id="col3" type="number">90</property>
+        <property id="col4" type="number">100</property>
+        <property id="col5" type="number">105</property>
+        <property id="col6" type="number">110</property>
+        <property id="col7" type="number">115</property>
         <property id="col8" type="number">120</property>
         <property id="col9" type="number">125</property>
         <property id="col10" type="number">130</property>
+        <property id="col11" type="number">135</property>
+        <property id="col12" type="number">140</property>
+        <property id="col13" type="number">145</property>
+        <property id="col14" type="number">150</property>
+        <property id="col15" type="number">155</property>
+        <property id="col16" type="number">160</property>
+        <property id="col17" type="number">165</property>
+        <property id="col18" type="number">170</property>
+        <property id="col19" type="number">175</property>
+        <property id="col20" type="number">180</property>
+        <property id="col21" type="number">185</property>
+        <property id="col22" type="number">190</property>
+
+        <!-- Animals related to the zone -->
+        <property id="animal1" type="string">OX</property>
+        <property id="animal2" type="string">Horse</property>
+        <property id="animal3" type="string">Pig</property>
+        <property id="animal4" type="string">Cow</property>
+        <property id="animal5" type="string">Sheep</property>
+        <property id="animal6" type="string">Goat</property>
+        <property id="animal7" type="string">Dog</property>
+        <property id="animal8" type="string">Kangaroo</property>
+        <property id="animal9" type="string">Rabbit</property>
+        <property id="animal10" type="string">Cat</property>
+        <property id="animal11" type="string">Giraffe</property>
+        <property id="animal12" type="string">Cheetah</property>
+        <property id="animal13" type="string">Ferret</property>
+        <property id="animal14" type="string">Guinea Pig</property>
+        <property id="animal15" type="string">Squirrel</property>
+        <property id="animal16" type="string">Guinea Pig</property>
+        <property id="animal17" type="string">Mouse</property>
+        <property id="animal18" type="string">Hamster</property>
+        <property id="animal19" type="string">Canary</property>
+        <property id="animal20" type="string">Canary</property>
+        <property id="animal21" type="string">Chinchilla</property>
+        <property id="animal22" type="string">Blue Jay</property>
+
     </properties>
     
     <!-- <settings>
