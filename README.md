@@ -74,7 +74,7 @@ If you wish to modify or build the app yourself, follow these steps:
 
 ## Supported Devices
 
-Currently only tested on an Venu 2S.
+Currently only tested on a Venu 2S.
 
 - Venu 2S
 
