@@ -52,10 +52,6 @@
     </properties>
     
     <!-- <settings>
-		<setting propertyKey="@Properties.Resources" title="@Strings.AppName">
-        	<settingConfig type="alphaNumeric" readonly="true" />
-    	</setting>
-
         <setting propertyKey="@Properties.col1" title="@Strings.FieldTitle1" prompt="@Strings.FieldPrompt">
             <settingConfig type="list">
                 <listEntry value="1">10</listEntry>
@@ -63,5 +59,7 @@
                 <listEntry value="3">30</listEntry>
                 <listEntry value="4">40</listEntry>
             </settingConfig>
-        </setting> -->
+        </setting>
+    </settings>  -->
+        
 </resources>
