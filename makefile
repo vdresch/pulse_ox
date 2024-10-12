@@ -8,7 +8,7 @@ build_and_test:
 	sleep 5
 
 	# Compile the executable
-	monkeyc -d venu2s -f /home/deck/Documents/Git/pulse_ox/pulse_ox/monkey.jungle -o pulse_ox.prg -y /home/deck/developer_key/Dev_Key
+	monkeyc -d venu2s -f /home/deck/Documents/Git/pulse_ox/pulse_ox/monkey.jungle -o pulse_ox.prg -y /home/deck/Documents/Git/developer_key
 
 	# Run in the simulator
 	monkeydo pulse_ox.prg venu2s

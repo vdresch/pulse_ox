@@ -2,14 +2,16 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
+using Toybox.ActivityMonitor as Act;
+using Toybox.Activity as Acty;
 
 class pulse_oxView extends WatchUi.DataField {
 
-    hidden var mValue as Numeric;
+    hidden var heart_rate as Numeric;
 
     function initialize() {
         DataField.initialize();
-        mValue = 0.0f;
+        heart_rate = 0.0f;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -53,9 +55,9 @@ class pulse_oxView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
-                mValue = info.currentHeartRate as Number;
+                heart_rate = info.currentHeartRate as Number;
             } else {
-                mValue = 0.0f;
+                heart_rate = 0.0f;
             }
         }
     }
@@ -73,7 +75,12 @@ class pulse_oxView extends WatchUi.DataField {
         } else {
             value.setColor(Graphics.COLOR_BLACK);
         }
-        value.setText(mValue.format("%.2f"));
+
+        if (heart_rate > 150 && heart_rate < 160) {
+            value.setText("OX");
+        } else {
+            value.setText(heart_rate.format("%.2f"));
+        }
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
