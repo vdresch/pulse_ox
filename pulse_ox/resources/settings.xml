@@ -1,0 +1,143 @@
+<settings>
+
+     <!-- Animal related to heart rate zones -->
+    <group id='animals' title="Animals" description="Choose the animals for each zone">
+        <setting propertyKey="@Properties.animal1" title='Animal 1' prompt='Animal for zone 1'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal2" title='Animal 2' prompt='Animal for zone 2'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal3" title='Animal 3' prompt='Animal for zone 3'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal4" title='Animal 4' prompt='Animal for zone 4'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal5" title='Animal 5' prompt='Animal for zone 5'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal6" title='Animal 6' prompt='Animal for zone 6'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal7" title='Animal 7' prompt='Animal for zone 7'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal8" title='Animal 8' prompt='Animal for zone 8'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal9" title='Animal 9' prompt='Animal for zone 9'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal10" title='Animal 10' prompt='Animal for zone 10'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal11" title='Animal 11' prompt='Animal for zone 11'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal12" title='Animal 12' prompt='Animal for zone 12'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal13" title='Animal 13' prompt='Animal for zone 13'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal14" title='Animal 14' prompt='Animal for zone 14'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal15" title='Animal 15' prompt='Animal for zone 15'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal16" title='Animal 16' prompt='Animal for zone 16'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal17" title='Animal 17' prompt='Animal for zone 17'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal18" title='Animal 18' prompt='Animal for zone 18'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal19" title='Animal 19' prompt='Animal for zone 19'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal20" title='Animal 20' prompt='Animal for zone 20'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal21" title='Animal 21' prompt='Animal for zone 21'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+        <setting propertyKey="@Properties.animal22" title='Animal 22' prompt='Animal for zone 22'>
+            <settingConfig type='alphaNumeric' maxLength='15'/>
+        </setting>
+    </group>
+
+    <!-- Heart rate zone settings -->
+    <group id='zones' title="HR Zones" description="Set custom zones">
+            <setting propertyKey="@Properties.col1" title='Zone 1' prompt='Begining of zone 1'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col2" title='Zone 2' prompt='Begining of zone 2'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col3" title='Zone 3' prompt='Begining of zone 3'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col4" title='Zone 4' prompt='Begining of zone 4'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col5" title='Zone 5' prompt='Begining of zone 5'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col6" title='Zone 6' prompt='Begining of zone 6'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col7" title='Zone 7' prompt='Begining of zone 7'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col8" title='Zone 8' prompt='Begining of zone 8'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col9" title='Zone 9' prompt='Begining of zone 9'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col10" title='Zone 10' prompt='Begining of zone 10'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col11" title='Zone 11' prompt='Begining of zone 11'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col12" title='Zone 12' prompt='Begining of zone 12'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col13" title='Zone 13' prompt='Begining of zone 13'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col14" title='Zone 14' prompt='Begining of zone 14'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col15" title='Zone 15' prompt='Begining of zone 15'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col16" title='Zone 16' prompt='Begining of zone 16'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col7" title='Zone 17' prompt='Begining of zone 17'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col18" title='Zone 18' prompt='Begining of zone 18'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col19" title='Zone 19' prompt='Begining of zone 19'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col20" title='Zone 20' prompt='Begining of zone 20'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col21" title='Zone 21' prompt='Begining of zone 21'>
+                <settingConfig type='numeric'/>
+            </setting>
+            <setting propertyKey="@Properties.col22" title='Zone 22' prompt='Begining of zone 22'>
+                <settingConfig type='numeric'/>
+            </setting>
+    </group>
+
+</settings>
