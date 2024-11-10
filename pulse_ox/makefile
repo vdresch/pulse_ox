@@ -1,6 +1,6 @@
 export PATH := $(PATH):$(shell cat $(HOME)/.Garmin/ConnectIQ/current-sdk.cfg)/bin
 
-DEVICE?=venu2s
+DEVICE?=venu
 devices = `grep 'iq:product id' manifest.xml | sed 's/.*iq:product id="\([^"]*\).*/\1/'`
 # Add one line in your source like var v = "1.0";
 JAVA_OPTIONS = JDK_JAVA_OPTIONS="--add-modules=java.xml.bind"
@@ -13,10 +13,20 @@ build_and_test:
 	sleep 5
 
 	# Compile the executable
-	monkeyc -d venu2s -f monkey.jungle -o bin/pulse_ox.prg -y /home/deck/Documents/Git/developer_key
+	monkeyc -d $(DEVICE) -f monkey.jungle -o bin/pulse_ox.prg -y /home/deck/Documents/Git/developer_key
 
 	# Run in the simulator
-	monkeydo bin/pulse_ox.prg venu2s
+	monkeydo bin/pulse_ox.prg $(DEVICE)
+
+test:
+	# Start sim in the background
+	connectiq &
+
+	# Give the simulator some time to start up (optional, can be adjusted)
+	sleep 5
+
+	# Run in the simulator
+	monkeydo bin/pulse_ox.prg $(DEVICE)
 
 build:
 	java \

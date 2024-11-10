@@ -1,6 +1,6 @@
 # PULSE OX
 
-**PULSE OX** is a Garmin Connect IQ data field app designed for Garmin devices that compares your heart rate to various animals' heart rates in real-time. Based on your heart rate, the app will display which animal's heart rate your current rate most closely resembles.
+**PULSE OX** is a Garmin Connect IQ data field app designed for Garmin devices that compares your heart rate to various animals' heart rates in real-time. Based on your heart rate, this data field will display which animal's heart rate your current rate most closely resembles. This is supposed to be kinda usless, it is just for fun. Also, my first app for Garmin, sort of a 'Hello World' project. As I suppose no one is going to use this app, if you are using and got any sugestions, I will be deeply honored and add your wish as my top priority in life. Special thanks to Rick, from the running channel podcast, for the inspiration for this project. Sometimes your genius is frightening.
 
 ## Features
 
