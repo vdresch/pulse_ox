@@ -4,6 +4,5 @@ mir/
 pulse_ox.prg.debug.xml
 pulse_ox.prg
 pulse_ox-settings.json
-pulse_ox.iq
 pulse_ox.iq.debug.xml
 .vscode
