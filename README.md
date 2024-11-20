@@ -1,6 +1,6 @@
 # PULSE OX
 
-**PULSE OX** is a Garmin Connect IQ data field app designed for Garmin devices that compares your heart rate to various animals' heart rates in real-time. Based on your heart rate, this data field will display which animal's heart rate your current rate most closely resembles. This is supposed to be kinda usless, it is just for fun. Also, my first app for Garmin, sort of a 'Hello World' project. As I suppose no one is going to use this app, if you are using and got any sugestions, I will be deeply honored and add your wish as my top priority in life. Special thanks to Rick, from the running channel podcast, for the inspiration for this project. Sometimes your genius is frightening.
+**PULSE OX** is a Garmin Connect IQ data field app designed for Garmin devices that compares your heart rate to various animals' heart rates in real-time. Based on your heart rate, this data field will display which animal's heart rate your current rate most closely resembles. This is supposed to be kinda usless, it is just for fun. Also, my first app for Garmin, sort of a 'Hello World' project.
 
 ## Features
 
@@ -57,13 +57,15 @@ If you wish to modify or build the app yourself, follow these steps:
    Ensure you have the Garmin Connect IQ SDK installed on your system.  
    For more information, refer to the [Garmin Developer Documentation](https://developer.garmin.com/connect-iq/overview/).
 
-3. **Build the project**:
-    ```bash
-    monkeyc -o pulse_ox.prg -m manifest.xml -f source/
+3. **Set up Monkey C extension on VS Code**:
+    On VS Code extensions, serach for Monkey C, developed by Garmin. Install the extension.
     ```
-4. **Install the app** on your Garmin device using `connectiq`:
-    ```bash
-    connectiq --install pulse_ox.prg --device YOUR_DEVICE_ID
+4. **Build the app**:
+    Using the VS Code Monkey C extension, use the command ```Monkey C: Build Current Project```. Selext the device you want to use.
+    A .prg file will be generated.
+
+5. **Install the app**:
+    Transfer the .prg file to the Apps folder on your watch.
     ```
 
 ## Usage
@@ -73,10 +75,54 @@ If you wish to modify or build the app yourself, follow these steps:
 3. View your heart rate in real-time and see which animal it resembles most.
 
 ## Supported Devices
-
-Currently only tested on a Venu 2S.
-
-- Venu 2S
+- Enduro
+- Enduro 3
+- Epix 2
+- Epix 2 Pro
+- Fenix 5
+- Fenix 5 Plus
+- Fenix 5s
+- Fenix 5s Plus
+- Fenix 5x
+- Fenix 5x Plus
+- Fenix 6
+- Fenix 6pro
+- Fenix 6s
+- Fenix 6s Pro
+- Fenix 6x Pro
+- Fenix 7
+- Fenix 7 Pro
+- Fenix 7s
+- Fenix 7s Pro
+- Fenix 7x
+- Fenix 7x Pro
+- Fenix 8
+- Fenix Chronos
+- Fenix e
+- Forerunner 165
+- Forerunner 245
+- Forerunner 255
+- Forerunner 255s
+- Forerunner 265
+- Forerunner 265s
+- Forerunner 645
+- Forerunner 745
+- Forerunner 935
+- Forerunner 945
+- Forerunner 955
+- Forerunner 965
+- Venu
+- Venu 2
+- Venu 2 Plus
+- Venu 2s
+- Venu 3
+- Venu 3s
+- Venu SQ
+- Venu SQ 2
+- Vivoactive 3
+- Vivoactive 4
+- Vivoactive 4s
+- Vivoactive 5
 
 ## Contributing
 
